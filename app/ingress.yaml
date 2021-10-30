@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Ingress
+metadata:
+  name: ingress
+spec:
+  backend:
+    serviceName: SRE
+    servicePort: 80
